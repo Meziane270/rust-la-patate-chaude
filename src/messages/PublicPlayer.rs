@@ -1,3 +1,5 @@
+#[derive(Debug)]
+
 pub struct PublicPlayer {
     pub name: String,
     stream_id: String,
