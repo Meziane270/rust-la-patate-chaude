@@ -42,25 +42,6 @@ fn get_hash_code( seed: String, message: String) -> String {
     format!("{:?}", digest)
 }
 
-// input
-
-pub struct MD5HashCashInput {
-    // complexity in bits
-    complexity: u32,
-    // message to sign
-    message: String,
-}
-
-// output
-
-pub struct MD5HashCashOutput {
-    // Seed used to solve the challenge
-    seed: u64,
-    // hashcode found using seed + message
-    hashcode: String,
-}
-
-
 /*fn bin_to_decimal(val: String) -> u64 {
     let intval = u64::from_str_radix(&*val, 2).expect("Not a binary number!");
     println!("{}", intval);
