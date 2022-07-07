@@ -1,4 +1,4 @@
-use crate::SubscribeResult::SubscribeResult;
+use crate::SubscribeError::SubscribeError;
 #[derive(Debug)]
 
 pub enum SubscribeResult {

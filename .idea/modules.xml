@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/la-patate-chaud.iml" filepath="$PROJECT_DIR$/la-patate-chaud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crates/crates.iml" filepath="$PROJECT_DIR$/crates/crates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rustProject.iml" filepath="$PROJECT_DIR$/.idea/rustProject.iml" />
     </modules>
   </component>
 </project>
