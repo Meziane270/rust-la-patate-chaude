@@ -1,1 +1,4 @@
-enum { AlreadyRegistered, InvalidName }
+pub enum SubscribeError {
+    AlreadyRegistered,
+    InvalidName
+}
